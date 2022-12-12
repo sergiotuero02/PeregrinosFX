@@ -68,6 +68,9 @@ public class AlojarseController implements Initializable {
     @FXML
     private Button cancelarBTN;
 
+    @FXML
+    private Button aceptarBTN;
+
     public StageManager getStageManager() {
         return stageManager;
     }
@@ -170,6 +173,11 @@ public class AlojarseController implements Initializable {
         if(rol == 3) {
             stageManager.switchScene(FxmlView.MENUADMINGENERAL);
         }
+    }
+
+    @FXML
+    private void aceptarAction(ActionEvent event) throws IOException {
+
     }
 
     @Override
